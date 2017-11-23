@@ -30,15 +30,13 @@ Pod::Spec.new do |s|
 
   s.source_files  = "DynamsoftCameraSDK.framework/Headers/DcsView.h",""
   s.vendored_frameworks = 'DynamsoftCameraSDK.framework'
-  s.resource = "DynamsoftCameraSDKResource.bundle"
+  s.resources = "DynamsoftCameraSDKResource.bundle", ""
+  #s.resources = "DynamsoftCameraSDKResource.bundle/Slidecircle.png", ""
   #s.source_files  = ""
   #s.source_files  = "ios-dynamsoft-camera-sdk"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
-
-  # s.resource  = "icon.png"
-  # s.resources = "Resources/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
