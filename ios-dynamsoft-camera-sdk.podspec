@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint ios-sdk.podspec' to ensure this is a
+#  Be sure to run `pod spec lint ios-dynamsoft-camera-sdk.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 
-  s.name         = "ios-sdk"
+  s.name         = "ios-dynamsoft-camera-sdk"
   s.version      = "0.0.2"
   s.summary      = "dhlaksjhdlaksjhdlajkshdlkajshdjlka"
 
@@ -17,7 +17,7 @@ You don’t have any verified emails. We recommend verifying at least one email.
 Email verification helps our support team verify ownership if you lose account access and allows you to receive all the notifications you ask for.
                    DESC
 
-  s.homepage     = "https://github.com/dynamsoft-dcs/ios-sdk"
+  s.homepage     = "https://github.com/dynamsoft-dcs/ios-dynamsoft-camera-sdk"
 
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
@@ -27,13 +27,13 @@ Email verification helps our support team verify ownership if you lose account a
 
   s.platform     = :ios
 
-  s.source       = { :git => "https://github.com/dynamsoft-dcs/ios-sdk.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/dynamsoft-dcs/ios-dynamsoft-camera-sdk.git", :tag => "#{s.version}" }
 
   s.source_files  = "DynamsoftCameraSDK.framework", ""
   s.vendored_frameworks = 'DynamsoftCameraSDK.framework'
   s.resource = "DynamsoftCameraSDKResource.bundle"
   #s.source_files  = ""
-  #s.source_files  = "ios-sdk"
+  #s.source_files  = "ios-dynamsoft-camera-sdk"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
