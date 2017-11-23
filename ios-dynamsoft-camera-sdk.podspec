@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/dynamsoft-dcs/ios-dynamsoft-camera-sdk.git", :tag => "#{s.version}" }
 
-  s.source_files  = "DynamsoftCameraSDK.framework/Headers/DcsView.h",""
+  #s.source_files  = "DynamsoftCameraSDK.framework/Headers/DcsView.h",""
   s.vendored_frameworks = 'DynamsoftCameraSDK.framework'
   s.resources = "DynamsoftCameraSDKResource.bundle", ""
   #s.resources = "DynamsoftCameraSDKResource.bundle/Slidecircle.png", ""
