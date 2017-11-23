@@ -29,7 +29,7 @@ Email verification helps our support team verify ownership if you lose account a
 
   s.source       = { :git => "https://github.com/dynamsoft-dcs/ios-sdk.git", :tag => "#{s.version}" }
 
-  s.source_files  = "testDir/*.{h}", "DynamsoftCameraSDK.framework/*.{plist}"
+  s.source_files  = "testDir/", ""
   #s.source_files  = ""
   #s.source_files  = "ios-sdk"
   #s.exclude_files = "Classes/Exclude"
@@ -51,6 +51,7 @@ Email verification helps our support team verify ownership if you lose account a
 
   s.requires_arc = true
 
+  s.compiler_flags = '-Objc'
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
 
