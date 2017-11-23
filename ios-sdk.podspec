@@ -29,7 +29,8 @@ Email verification helps our support team verify ownership if you lose account a
 
   s.source       = { :git => "https://github.com/dynamsoft-dcs/ios-sdk.git", :tag => "#{s.version}" }
 
-s.source_files  = "*.{framework}", "DynamsoftCameraSDK.framework/Headers/*.{h}", "DynamsoftCameraSDK.framework/*.{plist}", "DynamsoftCameraSDK.framework/*.{}"
+  s.source_files  = "DynamsoftCameraSDK.framework/Headers/*.{h}", ""
+  s.vendored_frameworks = DynamsoftCameraSDK.framework
   #s.source_files  = ""
   #s.source_files  = "ios-sdk"
   #s.exclude_files = "Classes/Exclude"
@@ -41,10 +42,10 @@ s.source_files  = "*.{framework}", "DynamsoftCameraSDK.framework/Headers/*.{h}",
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
-  s.frameworks = "UIKit", "Foundation"
+  # s.frameworks = "UIKit", "Foundation"
 
   # s.library   = "iconv"
-  s.libraries = "stdc++", "sqlite3.0"
+  # s.libraries = "stdc++", "sqlite3.0"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
