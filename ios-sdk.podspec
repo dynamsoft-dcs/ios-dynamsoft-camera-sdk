@@ -45,7 +45,7 @@ Email verification helps our support team verify ownership if you lose account a
   # s.frameworks = "UIKit", "Foundation"
 
   # s.library   = "iconv"
-  # s.libraries = "stdc++", "sqlite3.0"
+  s.libraries = "stdc++", "sqlite3.0"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
