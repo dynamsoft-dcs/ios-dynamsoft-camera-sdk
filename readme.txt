@@ -1,1 +1,1 @@
-Here read me:
+Dynamsoft Camera SDK provides Objet-C/Swift APIs that enable you to easily capture images and documents from USB Video Class (UVC) compatible webcams within a browser. It supports document edge detection from a video stream and processing features including perspective correction, noise removal, contrast, brightness, and color filter (convert to a colored/grey document).
