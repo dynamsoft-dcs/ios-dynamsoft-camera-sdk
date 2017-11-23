@@ -29,7 +29,7 @@ Email verification helps our support team verify ownership if you lose account a
 
   s.source       = { :git => "https://github.com/dynamsoft-dcs/ios-sdk.git", :tag => "#{s.version}" }
 
-  s.source_files  = "DynamsoftCameraSDK.framework/Headers/*.{h}", ""
+  s.source_files  = "DynamsoftCameraSDK.framework", ""
   s.vendored_frameworks = 'DynamsoftCameraSDK.framework'
   #s.source_files  = ""
   #s.source_files  = "ios-sdk"
