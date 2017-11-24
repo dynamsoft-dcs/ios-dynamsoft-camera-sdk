@@ -4,7 +4,7 @@
 //
 //  Created by dynamsoft on 11/05/2017.
 //  Copyright © 2017 Cooper. All rights reserved.
-//  Date:913
+//  Date: 1124 11.06
 //
 
 #import <UIKit/UIKit.h>
