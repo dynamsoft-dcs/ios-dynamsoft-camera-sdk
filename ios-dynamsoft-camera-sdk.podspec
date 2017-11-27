@@ -28,9 +28,12 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/dynamsoft-dcs/ios-dynamsoft-camera-sdk.git", :tag => "#{s.version}" }
 
-  #s.source_files  = "DynamsoftCameraSDK.framework/Headers/DcsView.h",""
+  s.source_files  = "*.{h}",""
+
   s.vendored_frameworks = 'DynamsoftCameraSDK.framework'
+
   s.resources = "DynamsoftCameraSDKResource.bundle", ""
+
   #s.resources = "DynamsoftCameraSDKResource.bundle/Slidecircle.png", ""
   #s.source_files  = ""
   #s.source_files  = "ios-dynamsoft-camera-sdk"
@@ -40,9 +43,6 @@ Pod::Spec.new do |s|
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
-  # s.frameworks = "UIKit", ""
-
-  # s.library   = "iconv"
   s.libraries = "stdc++", "sqlite3.0"
 
 
