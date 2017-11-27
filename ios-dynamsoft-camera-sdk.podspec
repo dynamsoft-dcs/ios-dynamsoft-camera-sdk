@@ -19,16 +19,14 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/dynamsoft-dcs/ios-dynamsoft-camera-sdk"
 
   s.license      = "MIT"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
-  s.author             = { "Dynamsoft Camera SDK" => "support@dynamsoft.com" }
-  # s.authors            = { "Dynamsoft Camera SDK" => "support@dynamsoft.com" }
+  s.author             = { "Dynamsoft Camera SDK" => "cooper@dynamsoft.com" }
 
   s.platform     = :ios
 
   s.source       = { :git => "https://github.com/dynamsoft-dcs/ios-dynamsoft-camera-sdk.git", :tag => "#{s.version}" }
 
-  s.source_files  = "DynamsoftCameraSDK-Bridging-Header.h",""
+  s.source_files  = "DynamsoftCameraSDK-Bridging-Header.h","DynamsoftCameraSDKResource.bundle/*.{png}"
 
   s.vendored_frameworks = 'DynamsoftCameraSDK.framework'
 
