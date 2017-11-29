@@ -14,10 +14,9 @@
 #import <DynamsoftCameraSDK/DcsImage.h>
 #import <DynamsoftCameraSDK/DcsUIImageEditorView.h>
 #import <DynamsoftCameraSDK/DcsException.h>
-#import <DynamsoftCameraSDK/DcsDetectorDocumentControllor.h>
 #import <DynamsoftCameraSDK/DcsBuffer.h>
 #import <DynamsoftCameraSDK/DcsUIDocumentEditorView.h>
 #import <DynamsoftCameraSDK/DcsUIImageGalleryView.h>
 #import <DynamsoftCameraSDK/DcsUIVideoView.h>
-#import <DynamsoftCameraSDK/Io.h>
+#import <DynamsoftCameraSDK/DcsIo.h>
 #endif /* DynamsoftCameraSDK_Bridging_Header_h */
