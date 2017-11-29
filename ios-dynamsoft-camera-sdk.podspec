@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/dynamsoft-dcs/ios-dynamsoft-camera-sdk"
 
-  s.license      = "MIT"
+  s.license= { :type => "MIT", :file => "LICENSE" }
 
   s.author             = { "Dynamsoft Camera SDK" => "cooper@dynamsoft.com" }
 
@@ -32,11 +32,6 @@ Pod::Spec.new do |s|
 
   s.resources = "DynamsoftCameraSDKResource.bundle", ""
 
-  #s.resources = "DynamsoftCameraSDKResource.bundle/Slidecircle.png", ""
-  #s.source_files  = ""
-  #s.source_files  = "ios-dynamsoft-camera-sdk"
-  #s.exclude_files = "Classes/Exclude"
-
   # s.public_header_files = "Classes/**/*.h"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
@@ -48,9 +43,9 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.compiler_flags = '-Objc'
+  s.compiler_flags = '-Objc', 'DynamsoftCameraSDK-Bridging-Header.h'
+
   #s.xcconfig = { "Objective-C Bridging Header" => "DynamsoftCameraSDK-Bridging-Header.h" }
   #$(SDKROOT)/usr/include/libxml2
-  # s.dependency "JSONKit", "~> 1.4"
 
 end
