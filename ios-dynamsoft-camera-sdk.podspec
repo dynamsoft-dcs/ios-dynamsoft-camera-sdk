@@ -45,8 +45,8 @@ Pod::Spec.new do |s|
 
   s.compiler_flags = '-Objc'
 
-#s.xcconfig = { "import path" => "DynamsoftCameraSDK-Bridging-Header.h" }
-  s.xcconfig = { 'EXCLUDED_SOURCE_FILE_NAME' => 'test.h' }
+  s.xcconfig = { 'SYSTEM_HEADER_SEARCH_PATHS' => 'test.h' }
+  s.xcconfig = { 'OTHER_SWIFT_FLAGS' => 'test.h' }
   #$(SDKROOT)/usr/include/libxml2
 
 end
