@@ -45,7 +45,7 @@ Pod::Spec.new do |s|
 
   s.compiler_flags = '-Objc'
 
-  s.xcconfig = { 'SYSTEM_HEADER_SEARCH_PATHS' => 'test.h,test1.h', 'OBJECTIVE-C_BRIDGING_HEADER' => 'test.h'}
+  s.xcconfig = {'OBJECTIVE-C_BRIDGING_HEADER' => 'test.h'}
   #s.xcconfig = { 'OTHER_SWIFT_FLAGS' => 'test.h' }
   #$(SDKROOT)/usr/include/libxml2
 
