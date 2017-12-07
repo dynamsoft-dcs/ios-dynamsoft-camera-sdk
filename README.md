@@ -1,10 +1,10 @@
 ## About
 
 Dynamsoft Camera SDK iOS Edition is a programming API for document imaging. It delivers a set of features to address app developer needs for mobile image processing. The SDK provides a built-in ability to capture a document from an iPhone. It then also provides:
-•    Document boundary detection
-•    Intelligent crop
-•    Trapezoid distortion correction
-•    Image enhancement for the quality of captured documents.
+-  Document boundary detection
+- Intelligent crop
+- Trapezoid distortion correction
+- Image enhancement for the quality of captured documents.
 Your app users will be able to capture scanner-quality images using their iPhones. For instance, users can capture contracts, ID cards, presentations, receipts, passports, driving licenses, or any other documents.
 
 ## Sample Code
