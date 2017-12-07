@@ -20,8 +20,8 @@ The code of a simple app is provided in two languages.
 Use Cocoapods and add to your Podfile:
 ```bash
 platform:ios
-xcodeproj 'testDcs.xcodeproj'
-target 'testDcs' do
+xcodeproj 'xxx.xcodeproj'
+target 'xxx' do
     pod 'ios-dynamsoft-camera-sdk', :git=>'https://github.com/dynamsoft-dcs/ios-dynamsoft-camera-sdk.git'
 end
 ```
