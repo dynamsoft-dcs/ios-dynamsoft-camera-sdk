@@ -10,8 +10,10 @@ Your app users will be able to capture scanner-quality images using their iPhone
 ## Sample Code
 
 The code of a simple app is provided in two languages.
-•    Swift sample > (Github URL)
-•    Objective-C sample > (Github URL)
+•    Swift sample >
+(Github URL)
+•    Objective-C sample >
+(Github URL)
 
 ## Installation
 
@@ -28,8 +30,13 @@ Dependency: Dynamsoft.com
 
 ## Useful Links
 
-Product overview: https://www.dynamsoft.com/Products/mobile-imaging-sdk.aspx
-API reference: http://developer.dynamsoft.com/dws/ios-api
-Developer’s Guide: https://developer.dynamsoft.com/dws/ios/Description
-License
+### Product overview:
+https://www.dynamsoft.com/Products/mobile-imaging-sdk.aspx
+### API reference:
+http://developer.dynamsoft.com/dws/ios-api
+### Developer’s Guide:
+https://developer.dynamsoft.com/dws/ios/Description
+
+## License
+
 The SDK offers 30-day free trial.
