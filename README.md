@@ -10,9 +10,9 @@ Your app users will be able to capture scanner-quality images using their iPhone
 ## Sample Code
 
 The code of a simple app is provided in two languages.
-•    Swift sample >
+- Swift sample >
 (Github URL)
-•    Objective-C sample >
+- Objective-C sample >
 (Github URL)
 
 ## Installation
@@ -25,8 +25,13 @@ target 'xxx' do
     pod 'ios-dynamsoft-camera-sdk', :git=>'https://github.com/dynamsoft-dcs/ios-dynamsoft-camera-sdk.git'
 end
 ```
+Then, run the following command:
+```bash
+$ pod install
+```
 
-Dependency: Dynamsoft.com
+## Dependency:
+Dynamsoft.com
 
 ## Useful Links
 
