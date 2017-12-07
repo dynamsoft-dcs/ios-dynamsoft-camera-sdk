@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.license= { :type => "MIT", :file => "LICENSE" }
 
-  s.author             = { "Dynamsoft Camera SDK" => "cooper@dynamsoft.com" }
+  s.author       = { "Dynamsoft Camera SDK" => "cooper@dynamsoft.com" }
 
   s.platform     = :ios
 
@@ -45,7 +45,7 @@ Pod::Spec.new do |s|
 
   s.compiler_flags = '-Objc'
 
-  s.xcconfig = {'OBJECTIVE-C_BRIDGING_HEADER' => 'test.h'}
+  #s.xcconfig = {'OBJECTIVE-C_BRIDGING_HEADER' => 'test.h'}
   #s.xcconfig = { 'OTHER_SWIFT_FLAGS' => 'test.h' }
   #$(SDKROOT)/usr/include/libxml2
 
