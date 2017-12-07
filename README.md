@@ -16,10 +16,17 @@ The code of a simple app is provided in two languages.
 ## Installation
 
 Use Cocoapods and add to your Podfile:
-/***** Cooper *****/
-<Code>
-Dependency: xxxxx
-Useful Links
+```bash
+platform:ios
+xcodeproj 'testDcs.xcodeproj'
+target 'testDcs' do
+    pod 'ios-dynamsoft-camera-sdk', :git=>'https://github.com/dynamsoft-dcs/ios-dynamsoft-camera-sdk.git'
+end
+```
+
+Dependency: Dynamsoft.com
+
+## Useful Links
 
 Product overview: https://www.dynamsoft.com/Products/mobile-imaging-sdk.aspx
 API reference: http://developer.dynamsoft.com/dws/ios-api
