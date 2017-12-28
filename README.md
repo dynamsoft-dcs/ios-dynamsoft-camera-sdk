@@ -10,9 +10,9 @@ Your app users will be able to capture scanner-quality images using their iPhone
 ## Sample Code
 
 The code of a simple app is provided in two languages.
-- Swift sample >
+- Swift sample ><br/>
 (Github URL)
-- Objective-C sample >
+- Objective-C sample ><br/>
 (Github URL)
 
 ## Installation
