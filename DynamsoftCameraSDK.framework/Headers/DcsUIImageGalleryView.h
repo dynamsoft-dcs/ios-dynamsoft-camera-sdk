@@ -14,28 +14,29 @@
 #pragma mark - delegate
 @protocol DcsUIImageGalleryViewDelegate
 /**
- * @since 6.0
- * trigger event: single tap 
- *
- * @param sender   ：trigger Object,this means the DcsUIImageGalleryView object
- * @param index    
+ Single click event.It is fired when the image with a specified index in the image gallery view is clicked.
+ @param sender The current UIImageGalleryView object that triggers the event
+ @param index The index of an image
  */
 - (void)onSingleTap: (id)sender index:(NSInteger)index;
-
-- (void)onSelectChanged:(NSArray *)selectedIndices;
-
+/**
+ The event is fired when the  indices of the selected images or documents in DcsBuffer are changed.It returns the indices of the selected images or documents in DcsBuffer after the change.
+ @param sender The current UIImageGalleryView object that triggers the event
+ @param indices The indices of selected images or documents
+ */
+- (void)onSelectChanged:(id)sender selectedIndices:(NSArray *)indices;
+/**
+ Long press event. It is fired under the view mode DIVME_MULTIPLE when an image with a specified index in the image gallery view is long pressed.
+ @param sender The current UIImageGalleryView object that triggers the event
+ @param index The index of an image
+ */
 - (void)onLongPress: (id)sender index: (NSInteger)index;
 
 @end
 
 @interface DcsUIImageGalleryView : UIView
-
-- (instancetype)initWithFrame:(CGRect)frame withClass:(id)targetClass;
-
 /**
- * @since 6.0
- * 
- * ImageGalleryView visible mode:multiple mode or Single mode 
+  DcsUIImageGalleryView visible mode:multiple mode or Single mode
  */
 typedef enum {
     DIVME_MULTIPLE = 0x0001,
@@ -46,41 +47,32 @@ typedef enum {
 @property (nonatomic, weak) id <DcsUIImageGalleryViewDelegate> delegate;
 
 /**
- * @since 6.0
- * set or get the imageGalleryView visible mode
- *
+ Gets or sets the view mode. The default is DIVME_MULTIPLE.
  */
 @property(nonatomic,assign) DcsImageGalleryViewModeEnum imageGalleryViewmode;
 
 /**
- * @since 6.0
- * 
- * Enter the manual sort mode in DIVE_MULTIPLE
+ Enables the manual sorting function.
+ The manual sorting function is only avaliable when the view mode is DIVME_MULTIPLE.If the view mode is DIVME_SINGLE,when it is changed to DIVME_MULTIPLE the soring function is activated.
  */
 - (void)enterManualSortMode;
 
 /**
- * @since 6.0
- * 
- * Enter the normal mode in DIVE_MULTIPLE
- * 
+ Enter the normal mode
  */
 - (void)enterNormalMode;
 
 /**
- * @since 6.0
- * 
- * Enter the picture or document selecte mode in DIVE_MULTIPLE
+ Enables the images selection function
+ The image selection function is only avaliable when the view mode is DIVME_MULTIPLE.If the view mode is DIVME_SINGLE,when it is changed to DIVME_MULTIPLE the soring function is activated.
  */
 - (void)enterSelectMode;
 
 
 /**
- * @since 6.0
- * 
- * get or set the selected image or document indices
- * 
+ Gets or sets the indices of the currently selected images or documents
  */
 @property(nonatomic, strong) NSArray *selectedIndices;
 
+- (instancetype)initWithFrame:(CGRect)frame withClass:(id)targetClass;
 @end

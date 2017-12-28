@@ -31,61 +31,45 @@ typedef enum{
 }DcsLogLevelEnum;
 
 /**
- * @since 6.0
- * currentView
- *
- * Gets or sets the current view type.The default is DVE_IMAGEGALLERYVIEW.
+ Gets or sets the current view type.The default is DVE_IMAGEGALLERYVIEW.
  */
 @property(nonatomic, assign) DcsViewEnum currentView;
 
 
 /**
- * @since 6.0
- * videoView
- * Gets the DcsUIVideoView object of DcsView
+ Gets the DcsUIVideoView object of DcsView
  */
 @property (nonatomic, strong, readonly) DcsUIVideoView *videoView;
 
 /**
- * @since 6.0
- * imageGalleryView
- * Gets the DcsUIImageGalleryView object of DcsView
+Gets the DcsUIImageGalleryView object of DcsView
  */
 @property (nonatomic, strong, readonly) DcsUIImageGalleryView *imageGalleryView;
 
 /**
- * @since 6.0
- * documentEditorView
- * Gets the DcsUIDocumentEditorView object of DcsView
+ Gets the DcsUIDocumentEditorView object of DcsView
  */
 @property (nonatomic, strong, readonly) DcsUIDocumentEditorView *documentEditorView;
 
 /**
- * @since 6.0
- * imageEditorView
- * Gets the DcsUIImageEditorView object of DcsView
+ Gets the DcsUIImageEditorView object of DcsView
  */
 @property (nonatomic, strong, readonly) DcsUIImageEditorView *imageEditorView;
 
 /**
- * @since 6.0
- * DcsIo
- * Get the data input and output object of DcsView
+ Get the data input and output object of DcsView
  */
 @property (nonatomic, strong,readonly) DcsIo *io;
 
 /**
- * @since 6.0
- * setLogLevel
- * Sets the log display level. The log message will output on console
- * @param logLevel   The log level.The default level is DLLE_OFF.
+ Gets the temporary storage pool for all the DcsImage and DcsDocument objects of DcsView.
+ */
+@property(nonatomic, strong,readonly) DcsBuffer *buffer;
+
+/**
+ Sets the log display level. The log message will output on console
+ @param logLevel   The log level.The default level is DLLE_OFF.
  */
 + (void)setLogLevel:(DcsLogLevelEnum)logLevel;
 
-/**
- * @since 6.0
- * buffer
- * Gets the temporary storage pool for all the DcsImage and DcsDocument objects of DcsView.
- */
-@property(nonatomic, strong,readonly) DcsBuffer *buffer;
 @end

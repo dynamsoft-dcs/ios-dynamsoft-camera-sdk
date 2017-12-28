@@ -12,22 +12,19 @@
 @interface DcsDocument : DcsImage
 
 /**
- * @since 6.0
- * Creates a DcsDocument object from UIImage
+ Creates a DcsDocument object from UIImage
+ @param image The image data to create object from
+ @return (id) The DcsDocument object
  */
 - (id)init:(UIImage *)image;
 
 /**
- * @since 6.0
- * Returns the bondary information of the document.
- *
+ Returns the bondary information of the document.
  */
 @property (nonatomic, strong, readonly) NSArray *documentBoundary;
 
 /**
- * @since 6.0
- * Returns the original image of the document.
- *
+ Returns the original image of the document.
  */
 @property (nonatomic,strong,readonly) UIImage   *originalImage;
 
