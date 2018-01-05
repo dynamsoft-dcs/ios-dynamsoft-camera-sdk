@@ -19,15 +19,15 @@ https://download.dynamsoft.com/Samples/dcs/(OC)ScanDocument.zip
 ## Installation
 
 Use Cocoapods and add to your Podfile:
-> platform:ios
-xcodeproj 'xxx.xcodeproj'
-target 'xxx' do
-    pod 'ios-dynamsoft-camera-sdk', :git=>'https://github.com/dynamsoft-dcs/ios-dynamsoft-camera-sdk.git'
-end
+> platform:ios<br/>
+xcodeproj 'xxx.xcodeproj'<br/>
+target 'xxx' do<br/>
+    pod 'ios-dynamsoft-camera-sdk', :git=>'https://github.com/dynamsoft-dcs/ios-dynamsoft-camera-sdk.git'<br/>
+end<br/>
 
 Then, run the following command:
 
-> pod install
+> pod install<br/>
 
 
 ## Dependency:
