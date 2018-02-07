@@ -18,7 +18,7 @@
 
 
 /**
- * @since 6.0
+ *
  * onDocumentDetected
  * This delegate is fired when a doucument is detected
  *
@@ -28,7 +28,7 @@
 - (void)onDocumentDetected:(id)sender document:(DcsDocument *)document;
 
 /**
- * @since 6.0
+ *
  * onCancelTapped
  * This delegate is fired when the cancel tool item is clicked
  *
@@ -37,7 +37,7 @@
 - (void)onCancelTapped:(id)sender;
 
 /**
- * @since 6.0
+ *
  * The delegate is fired whe the capture tool item is clicked.
  *
  * @param sender The DcsUIVideoView object 
@@ -45,7 +45,7 @@
 - (void)onCaptureTapped:(id)sender;
 
 /**
- * @since 6.0
+ *
  * The delegate is fired before an image or a document is captrued
  *
  * @param sender The DcsUIVideoView object 
@@ -53,18 +53,19 @@
 - (BOOL)onPreCapture:(id)sender;
 
 /**
- * @since 6.0
+ *
  * The delegate is fired after an image or a document is captured.
  *
  * @param sender The DcsUIVideoView object 
+ * @param image  The captured object.If the Video mode is DME_IMAGE,it is a DcsImage object;if the video mode is DME_DOCUMENT,it is a DcsDocument object.
  */
-- (void)onPostCapture:(id)sender;
+- (void)onPostCapture:(id)sender image:(DcsImage *)image;
 
 /**
- * @since 6.0
+ *
  * The delegate is fired when it fails to capture an image or a docment
  *
- * @param sender The DcsUIVideoView object 
+ * @param sender The DcsUIVideoView object
  */
 - (void)onCaptureFailure:(id)sender exception:(DcsException*)exception;
 @end
