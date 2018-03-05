@@ -72,11 +72,12 @@ https://developer.dynamsoft.com/dws/ios/Description
 ## Download the Demo APP
 <p>We've built a demo APP for you to conveniently<br/>
   evaluate the features of the SDK.</p>
+
+[![Build Status](https://travis-ci.org/AFNetworking/AFNetworking.svg)](https://travis-ci.org/AFNetworking/AFNetworking)
+
 <p>You can also search "Doc Scanner X" in App Store<br/>
   or scan this QR Code to download the demo APP</p>
 <img src="https://www.dynamsoft.com/assets/images/qr-doc-scanner-x.png" alt="DynamsoftCameraSDK" title="DynamsoftCameraSDK">
-
-[![Build Status](https://travis-ci.org/AFNetworking/AFNetworking.svg)](https://travis-ci.org/AFNetworking/AFNetworking)
 
 
 ## License
