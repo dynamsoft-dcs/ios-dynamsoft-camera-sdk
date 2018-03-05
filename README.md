@@ -62,11 +62,11 @@ Dynamsoft.com
 
 ## Useful Links
 
-### Product overview:
+- Product overview:<br/>
 https://www.dynamsoft.com/Products/mobile-imaging-sdk.aspx
-### API reference:
+- API reference:
 http://developer.dynamsoft.com/dws/ios-api
-### Developer’s Guide:
+- Developer’s Guide:<br/>
 https://developer.dynamsoft.com/dws/ios/Description
 
 ## Download the Demo APP
