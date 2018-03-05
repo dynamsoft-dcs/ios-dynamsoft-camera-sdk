@@ -31,15 +31,7 @@ Then, run the following command:
 
 ## Release Note
 ### version 2.0
-<table><tr><td bgcolor=#7FFFD4>
-IMPROVE
-</td></tr></table>
-- Improved Document Detection<br/>
-Greatly improved document edge detection accuracy.<br/>
-- Optimized Performance<br/>
-Introduced a new data accessing and computing strategy to optimize the performance. You can now switch and view bulk images more smoothly.<br/>
-- Added Umbrella Header File<br/>
-Added an umbrella header file - 'DynamsoftCameraSDK.h'. You can now import a single header file to use our iOS SDK instead of importing multiple header files.<br/>
++ improve
 
 ## Dependency:
 Dynamsoft.com
