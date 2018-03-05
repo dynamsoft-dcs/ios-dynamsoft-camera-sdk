@@ -1,0 +1,6 @@
+framework module DynamsoftCameraSDK {
+  umbrella header "DynamsoftCameraSDK.h"
+
+  export *
+  module * { export * }
+}
