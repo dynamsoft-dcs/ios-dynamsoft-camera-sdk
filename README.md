@@ -2,7 +2,9 @@
   <img src="https://www.dynamsoft.com/assets/images/illus-dcsiOSOverview-banner.gif" alt="DynamsoftCameraSDK" title="DynamsoftCameraSDK">
 </p>
 
-<h1>Document scanning API for iOS</h1>
+<h1 align="center" >
+Document scanning API for iOS
+</h1>
 <h3>Enables automatic border detection, trimming and perspective correction in your iOS APP.</h3>
 
 ## About
