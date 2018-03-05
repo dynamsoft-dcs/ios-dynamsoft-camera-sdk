@@ -31,6 +31,7 @@ Then, run the following command:
 
 ## Release Note
 ### version 2.0
+<table><tr><td bgcolor=orange>IMPROVE</td></tr></table>
 - Improved Document Detection<br/>
 Greatly improved document edge detection accuracy.<br/>
 - Optimized Performance<br/>
