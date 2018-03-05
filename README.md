@@ -78,6 +78,8 @@ http://developer.dynamsoft.com/dws/ios-api
 https://developer.dynamsoft.com/dws/ios/Description
 
 ## Download the Demo APP
+<img src="https://www.dynamsoft.com/assets/images/illus-doc-scanner-x.png" alt="DynamsoftCameraSDK" title="DynamsoftCameraSDK">
+
 <p>We've built a demo APP for you to conveniently<br/>
   evaluate the features of the SDK.</p>
 
