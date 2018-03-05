@@ -31,7 +31,9 @@ Then, run the following command:
 
 ## Release Note
 ### version 2.0
-IMPROVED<br/>
+
+- IMPROVED
+
 Improved Document Detection<br/>
 Greatly improved document edge detection accuracy.<br/>
 Optimized Performance<br/>
@@ -39,10 +41,10 @@ Introduced a new data accessing and computing strategy to optimize the performan
 Added Umbrella Header File<br/>
 Added an umbrella header file - 'DynamsoftCameraSDK.h'. You can now import a single header file to use our iOS SDK instead of importing multiple header files.<br/>
 
-CHANGED<br/>
+- CHANGED
 Added a parameter for the delegate onPostCapture to get the DcsDocument or DcsImage object.<br/>
 
-FIXED<br/>
+- FIXED
 Fixed a bug where the image becomes completely white or black when you adjust the brightness or contrast of it.<br/>
 Fixed a bug with zooming in/out under the single page mode.<br/>
 Fixed a bug where using loadDataAsync() rotates the image by 90 degrees.<br/>
