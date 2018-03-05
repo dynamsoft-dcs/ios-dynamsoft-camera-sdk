@@ -1,5 +1,5 @@
 <p align="center" >
-  <img src="https://www.dynamsoft.com/assets/images/illus-dcsiOSOverview-banner.gif" alt="AFNetworking" title="AFNetworking">
+  <img src="https://www.dynamsoft.com/assets/images/illus-dcsiOSOverview-banner.gif" alt="DynamsoftCameraSDK" title="DynamsoftCameraSDK">
 </p>
 
 <h1>Document scanning API for iOS</h1>
@@ -8,7 +8,7 @@
 ## About
 
 Dynamsoft Camera SDK iOS Edition is a programming API for document imaging. It delivers a set of features to address app developer needs for mobile image processing. The SDK provides a built-in ability to capture a document from an iPhone. It then also provides:
--  Document boundary detection
+- Document boundary detection
 - Intelligent crop
 - Trapezoid distortion correction
 - Image enhancement for the quality of captured documents.
@@ -68,6 +68,11 @@ https://www.dynamsoft.com/Products/mobile-imaging-sdk.aspx
 http://developer.dynamsoft.com/dws/ios-api
 ### Developer’s Guide:
 https://developer.dynamsoft.com/dws/ios/Description
+
+## Online Demo
+<p>You can also search "Doc Scanner X" in App Store<br/>
+  or scan this QR Code to download the demo APP</p>
+<img src="https://www.dynamsoft.com/assets/images/qr-doc-scanner-x.png" alt="DynamsoftCameraSDK" title="DynamsoftCameraSDK">
 
 ## License
 
