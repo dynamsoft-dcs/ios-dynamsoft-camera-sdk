@@ -64,7 +64,7 @@ Dynamsoft.com
 
 - Product overview:<br/>
 https://www.dynamsoft.com/Products/mobile-imaging-sdk.aspx
-- API reference:
+- API reference:<br/>
 http://developer.dynamsoft.com/dws/ios-api
 - Developer’s Guide:<br/>
 https://developer.dynamsoft.com/dws/ios/Description
