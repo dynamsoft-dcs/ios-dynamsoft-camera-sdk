@@ -22,27 +22,6 @@ Dynamsoft Camera SDK iOS Edition is a programming API for document imaging. It d
 - Image enhancement for the quality of captured documents.
 Your app users will be able to capture scanner-quality images using their iPhones. For instance, users can capture contracts, ID cards, presentations, receipts, passports, driving licenses, or any other documents.
 
-## Sample Code
-
-The code of a simple app is provided in two languages.
-- Swift sample ><br/>
-https://download.dynamsoft.com/Samples/dcs/(Swift)CaptureImage.zip
-https://download.dynamsoft.com/Samples/dcs/(Swift)ScanDocument.zip
-- Objective-C sample ><br/>
-https://download.dynamsoft.com/Samples/dcs/(OC)CaptureImage.zip
-https://download.dynamsoft.com/Samples/dcs/(OC)ScanDocument.zip
-## Installation
-
-Use Cocoapods and add to your Podfile:
-> platform:ios<br/>
-xcodeproj 'xxx.xcodeproj'<br/>
-target 'xxx' do<br/>
-    pod 'ios-dynamsoft-camera-sdk', :git=>'https://github.com/dynamsoft-dcs/ios-dynamsoft-camera-sdk.git'<br/>
-end<br/>
-
-Then, run the following command:
-
-> pod install<br/>
 
 ## Release Note
 ### version 2.0
@@ -64,6 +43,28 @@ Fixed a bug where the image becomes completely white or black when you adjust th
 Fixed a bug with zooming in/out under the single page mode.<br/>
 Fixed a bug where using loadDataAsync() rotates the image by 90 degrees.<br/>
 Other small fixes and tweaks.<br/>
+
+## Sample Code
+
+The code of a simple app is provided in two languages.
+- Swift sample ><br/>
+https://download.dynamsoft.com/Samples/dcs/(Swift)CaptureImage.zip
+https://download.dynamsoft.com/Samples/dcs/(Swift)ScanDocument.zip
+- Objective-C sample ><br/>
+https://download.dynamsoft.com/Samples/dcs/(OC)CaptureImage.zip
+https://download.dynamsoft.com/Samples/dcs/(OC)ScanDocument.zip
+## Installation
+
+Use Cocoapods and add to your Podfile:
+> platform:ios<br/>
+xcodeproj 'xxx.xcodeproj'<br/>
+target 'xxx' do<br/>
+    pod 'ios-dynamsoft-camera-sdk', :git=>'https://github.com/dynamsoft-dcs/ios-dynamsoft-camera-sdk.git'<br/>
+end<br/>
+
+Then, run the following command:
+
+> pod install<br/>
 
 ## Dependency:
 Dynamsoft.com
