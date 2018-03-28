@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ios-dynamsoft-camera-sdk"
-  s.version      = "0.0.2"
+  s.version      = "2.1"
   s.summary      = "Developers can have complete control over a scanner, e.g., exposure, iris, auto focus, etc."
 
   s.description  = <<-DESC
