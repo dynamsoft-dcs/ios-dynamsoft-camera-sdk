@@ -6,8 +6,6 @@
 Document scanning API for iOS
 </h1>
 
-[![Build Status](https://travis-ci.org/AFNetworking/AFNetworking.svg)]()
-
 <h3>
 Enables automatic border detection, trimming and perspective correction in your iOS APP.
 </h3>
