@@ -3,7 +3,7 @@
 //  DCSTest
 //
 //  Created by dynamsoft on 11/05/2017.
-//  Copyright © 2017 dynamsoft. All rights reserved.
+//  Copyright © 2017 Dynamsoft. All rights reserved.
 //  Date: 1124 11.06
 //
 

@@ -28,6 +28,4 @@
  */
 @property (nonatomic,strong,readonly) UIImage   *originalImage;
 
-
-
 @end

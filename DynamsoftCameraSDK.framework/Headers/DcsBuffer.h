@@ -103,6 +103,9 @@
 
 - (instancetype)initWithClass:(id)targetClass;
 
-
+/**
+    Delete all buffer data.
+ */
+- (void)deleteAll;
 
 @end
