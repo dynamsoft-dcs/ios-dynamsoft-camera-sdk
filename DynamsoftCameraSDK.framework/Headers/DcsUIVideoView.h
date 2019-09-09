@@ -202,6 +202,12 @@ typedef enum {
 @property (nonatomic, strong)  UIImage *captureIcon;
 
 /**
+ Gets or sets the Zoom in value on the DcsUIVideoView.
+ The value >= 1 and the maximum is decided by 'AVCaptureDevice.activeFormat.videoMaxZoomFactor'
+ */
+@property (nonatomic, assign) CGFloat zoomIn;
+
+/**
  Opens the video.
  If the capture mode is DME_DOCUMENT,the document border will be detected in real time and displaye on the video stream.If the mobile camra is not authorized for use,the exception DcsCameraNotAuthorizedException will be thrown.
  */
@@ -231,8 +237,6 @@ typedef enum {
  Gets or sets whether to disable document capture function when no document is detected.The default value is YES.
  */
 @property (nonatomic, assign) BOOL ifAllowDocumentCaptureWhenNotDetected;
-
-
 
 
 @end

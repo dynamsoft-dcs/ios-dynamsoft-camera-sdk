@@ -38,6 +38,21 @@
  * 
  **********************/
 @interface DcsPDFEncodeParameter : DcsEncodeParameter
+
+/**
+* Sets or get the PDF pagesize
+ 
+ Common page size settings:
+    A3(842,1191),A4(595, 842),Letter(612,792),Legal(612,1008), etc.
+ * The unit is pt(1pt = 1/72inch).
+ */
+@property (nonatomic, assign) CGSize pageSize;
+@property (nonatomic, nullable) NSString* author;
+@property (nonatomic, nullable) NSString* creator;
+@property (nonatomic, nullable) NSString* subject;
+@property (nonatomic, nullable) NSString* keywords;
+@property (nonatomic, nullable) NSString* title;
+
 @end
 
 /************************
